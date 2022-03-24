@@ -1,13 +1,13 @@
 <!------------ Elasticsearch Cluster ------------>
 
 # Prerequisites
--> a machine with enough RAM (at least 8 gb)
--> `docker` and `docker-compose` installed 
+- a machine with enough RAM (at least 8 gb)
+- `docker` and `docker-compose` installed 
 
 # To start the containers either use
--> docker-compose up -d
+- docker-compose up -d
 Now wait for `1 minute`, after that run
--> docker ps
+- docker ps
 It will now be showing the container status as `healthy`
 
 # Confirm that elasticsearch is healthy by visiting one of the following links from your browser or a tool like curl
@@ -19,18 +19,18 @@ Elasticsearch nodes:
 - [datanode2 health](http://localhost:9202/_cat/health)
 
 # To stop the comtainers use
--> docker-compose down
+- docker-compose down
 
 # For clean up use
--> docker-compose down -v
+- docker-compose down -v
 
 <!------------ Cerebro ------------>
 
 # To start the cerebro
 Extract the cerebro.zip file
--> unzip cerebro.zip
+- unzip cerebro.zip
 Go inside the ./cerebro/bin directory
--> bash cerebro
+- bash cerebro
 
 # Acessing the cerebro page
 Go to the browser and type
