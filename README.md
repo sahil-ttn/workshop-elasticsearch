@@ -5,11 +5,11 @@
 - `docker` and `docker-compose` installed 
 
 # To start the containers either use
-Create directory named shared_folder
-mkdir shared_folder
-docker-compose up -d
-Now wait for `1 minute`, after that run
-docker ps
+Create directory named shared_folder\n
+mkdir shared_folder\n
+docker-compose up -d \n
+Now wait for `1 minute`, after that run \n
+docker ps \n
 It will now be showing the container status as `healthy`
 
 # Confirm that elasticsearch is healthy by visiting one of the following links from your browser or a tool like curl
