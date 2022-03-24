@@ -5,6 +5,8 @@
 - `docker` and `docker-compose` installed 
 
 # To start the containers either use
+Create directory named shared_folder
+- mkdir shared_folder
 - docker-compose up -d
 Now wait for `1 minute`, after that run
 - docker ps
